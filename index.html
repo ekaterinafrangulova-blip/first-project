@@ -1,0 +1,51 @@
+<!DOCTYPE html> <!-- Объявление типа документа -->
+<html lang="ru"> <!-- Корневой элемент, указываем язык -->
+<head>
+    <meta charset="UTF-8"> <!-- Кодировка символов -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Адаптивность для мобильных -->
+    <title>Мой Первый Сайт</title> <!-- Заголовок вкладки браузера -->
+    <link rel="stylesheet" href="style.css"> <!-- Подключение стилей -->
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <h1>Привет, мир!</h1> <!-- Главный заголовок -->
+        <nav>
+            <ul>
+                <li><a href="#about">О нас</a></li> <!-- Ссылка на якорь -->
+                <li><a href="contact.html">Контакты</a></li> <!-- Ссылка на другую страницу -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основное содержание -->
+    <main>
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Это параграф текста о нашей компании.</p>
+            <p>Здесь может быть:</p>
+            <ul> <!-- Маркированный список -->
+                <li>Список элементов.</li>
+                <li>Другой элемент.</li>
+            </ul>
+            <p>Можно использовать <a href="https://www.google.com">гиперссылки</a> и изображения:</p>
+            <img src="image.jpg" alt="Пример картинки"> <!-- Изображение -->
+        </section>
+        <section>
+            <h2>Пример кода</h2>
+            <pre><code>
+function helloWorld() {
+  console.log("Hello, World!");
+}
+            </code></pre> <!-- Блок кода -->
+        </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <p>&copy; 2025 Мой Сайт</p> <!-- Копирайт -->
+    </footer>
+
+    <script src="script.js"></script> <!-- Подключение JavaScript -->
+</body>
+</html>
